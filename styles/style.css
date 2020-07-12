@@ -1,0 +1,116 @@
+body {
+	margin:0;
+}
+
+header {  
+    height:155px;
+    background-image: url("../images/blockchain.jpeg");
+    background-repeat: repeat; 
+    padding-left:2%; 
+    color:white; 
+}
+
+footer { 
+    text-align:center; 
+	width:100%;
+	margin-bottom:0;
+    clear:both; 
+}
+
+/* colums used for responsive web design */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+/* colums used for responsive web design */
+
+[class*="col-"] {
+	float: left;
+	padding: 5px;
+	/*border: 1px solid red;*/
+}
+
+/* navigation css */
+nav ul { 
+    color:navy; 
+    width:auto;
+	margin:0;
+	padding:0;
+}
+
+li {
+    list-style-type: none; 
+    text-align: center; 
+	margin-bottom: 1%;
+}
+
+li a { 
+    background: rgb(1,157,232); 
+    border: 2px outset #aabaff; 
+	display: block; 
+    color: white; 
+    text-decoration: none; 
+    padding: 5px;
+}
+/* navigation css */
+
+/* content css */
+.login {
+	text-align: center;
+}
+
+.content img {
+	margin:auto;
+	margin-top:3%;
+	display:block;
+	width:60%;
+	margin-bottom:3%;
+}
+
+.field {
+	margin-bottom:1.5%;
+}
+
+.formContent {
+	text-align:center;
+}
+
+.content form {
+	margin-bottom:5%;
+}
+/* content css */
+ 
+/* table css */
+.content table { 
+	width:800px; 
+	border:1px navy solid; 
+	border-collapse:collapse; 
+	margin-bottom:5%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.content td { 
+	border:1px navy solid; 
+	padding:5px;
+	text-align:center; 
+}
+
+.content th { 
+	border:1px navy solid; 
+	padding:5px; 
+	text-align:center; 
+}
+
+.content h2 {
+	text-align:center;
+}
+/* table css */
